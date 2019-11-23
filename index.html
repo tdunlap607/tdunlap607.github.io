@@ -28,16 +28,27 @@ img {
   width: 50%;
   height: 50%;
 }
-body {
-  background-color: white;
-  text-align: center;
-  vertical-align: middle;
-  color: black;
-  font-size: 1.5vw;
+@media screen and (min-width: 993px) {
+	body.fixture {
+  		background-color: white;
+  		text-align: center;
+  		vertical-align: middle;
+  		color: black;
+  		font-size: 1.5vw;
+  	}
+}
+@media screen and (max-width: 992px) {
+	body.fixture {
+  		background-color: white;
+  		text-align: center;
+  		vertical-align: middle;
+  		color: black;
+  		font-size: 3.5vw;
+  	}
 }
 </style>
 
-<body>
+<body class="fixture">
 <div class="center">
   <img src="https://raw.githubusercontent.com/tdunlap607/tdunlap607.github.io/master/thecubineer_man_v1.jpg">
   <p><b>cubineer [ ˈkyü-bi-ˈnir ]</b></p>
